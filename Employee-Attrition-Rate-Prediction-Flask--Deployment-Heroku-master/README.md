@@ -42,22 +42,23 @@ Heroku App Link : https://emloyeeattritionrate.herokuapp.com/home
 
 6- **Removing Multicollinearity**, Model Re-evaluation and Assumptions Validation
 
-# Technologies Used
 
-![Alt Text](https://github.com/DheerajKumar97/IPL-Score-Prediction-with-Flask-Deployment-Heroku/blob/master/static/p1.jpg)
-![Alt Text](https://github.com/DheerajKumar97/IPL-Score-Prediction-with-Flask-Deployment-Heroku/blob/master/static/p2.png)
-![Alt Text](https://github.com/DheerajKumar97/IPL-Score-Prediction-with-Flask-Deployment-Heroku/blob/master/static/p3.png)
+## About me
 
-# License
+**Piyush Pathak**
 
-![Alt Text](https://github.com/DheerajKumar97/FIFA-World-Cup-Analysis/blob/master/apache.jpg)
-<br>
-CopyRight 2020 DHEERAJ KUMAR
+[**PORTFOLIO**](https://anirudhrapathak3.wixsite.com/piyush)
 
-      https://www.apache.org/licenses/LICENSE-2.0
-      
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-<br>
+[**GITHUB**](https://github.com/piyushpathak03)
 
-# Credits
-<a href="https://machinelearningmastery.com/implement-simple-linear-regression-scratch-python/"> Jason Brownlee</a>
+[**BLOG**](https://medium.com/@piyushpathak03)
+
+
+# 📫 Follw me: 
+
+[![Linkedin Badge](https://img.shields.io/badge/-PiyushPathak-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/piyushpathak03/)](https://www.linkedin.com/in/piyushpathak03/)
+
+<p  align="right"><img height="100" src = "https://media.giphy.com/media/l3URDstnIjBNY7rwLB/giphy.gif"></p>
+
+
+
