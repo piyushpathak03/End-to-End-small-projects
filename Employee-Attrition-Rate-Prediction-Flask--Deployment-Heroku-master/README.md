@@ -1,4 +1,4 @@
-![Alt Text](https://github.com/DheerajKumar97/Employee-Attrition-Rate-Prediction-Flask--Deployment-Heroku/blob/master/static/ATTT.png)
+![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Employee-Attrition-Rate-Prediction-Flask--Deployment-Heroku-master/static/ATTT.png)
 
 # Employee Attrition Rate Prediction
 
