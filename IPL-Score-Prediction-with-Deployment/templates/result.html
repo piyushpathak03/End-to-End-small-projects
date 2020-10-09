@@ -1,0 +1,191 @@
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>First Innings Score Predictor</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='ipl-favicon.ico') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+  <style>
+#ip4 {
+    border-radius: 30px 60px 40px;
+    border: 4px solid blue;
+    padding: 20px; 
+    width: 465px;
+    height: 80px; 
+}
+</style>
+    </head>
+ <nav class="navbar navbar-expand-sm bg-dark fixed-top">
+  <a class="navbar-brand"><b>IPL SCORE PREDICTION</b></a>
+  <a class="navbar-brand"><b><font size="2">BY DHEERAJ KUMAR</font></b></a>
+  <ul class="navbar-nav" >
+    <li class="nav-item">
+    </li>
+    <li class="nav-item">
+    </li>
+  </ul>
+</nav>
+<br>
+<style>
+
+body { 
+	width: 100%;
+	height:10%;
+	font-family: 'Open Sans', sans-serif;
+	background:#ff2600; 
+	color: #fff;
+	font-size: 28px;
+	text-align:center;
+	letter-spacing:1.2px;
+	
+}
+
+</style>
+    <body>
+<style> 
+            .dh { 
+                width:100%; 
+                height:100px; 
+            } 
+            img{ 
+                width:100%; 
+                height:100px; 
+            } 
+</style>
+<div class="dh ">
+                            <img class="image-width" src="{{ url_for('static', filename='ipl.jpeg') }}" alt="Kolkata Knight Riders">
+<!-- Website Title -->
+    	<style>
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+  background-color:#ff2600;
+}
+
+.container{
+  background-color:#E0F2F1;
+  padding:10px;
+  border-radius:15px;
+  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+}
+
+h1, h2{
+  text-align:center;
+}
+
+h1{
+  color:rgba(100, 50, 255, .8);
+  font-family: 'Pacifico', cursive;
+  color:#212121;
+}
+
+.rainbow {
+  
+   /* Font options */
+  font-family: 'Pacifico', cursive;
+  text-shadow: 2px 2px 4px #ff2600;
+  font-size:40px;
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: black;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: violet;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: black;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: violet;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+</style>
+<br><br>
+<h2 class="rainbow">IPL Score Predictor 2020</h2>
+<br>
+
+			<!-- Result -->
+			<div class="results">
+				<p class='result-p'><b>The final predicted score (range): {{ lower_limit }} to {{ upper_limit }}</b></p>
+			</div>
+
+            
+
+        <!-- Footer -->
+        <style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #282828;
+   color: white;
+   text-align: center;
+}
+</style>
+<div class='footer'>
+           <div class="footer">
+
+
+<div>
+  </a>
+  <p><font face='verdana' size='2' ><b>@ 2020  All Rights Reserved.   <a href="https://www.linkedin.com/in/dheerajkumar1997/"><button type="button" class="btn-linkedin w3-blue"><i class="fa fa-linkedin left"></i></button></a>&nbsp<a href="https://github.com/DheerajKumar97?tab=repositories"><button type="button" class="btn-github w3-white"><i class="fa fa-github left"></i></button></a>&nbsp<a href="https://wa.me/+919080883289"><button type="button" class="btn-whatsapp w3-green"><i class="fa fa-whatsapp my-float left"></i></button> </b></font></p>
+  </div>
+
+           </div>
+
+    </body>
+</html>
