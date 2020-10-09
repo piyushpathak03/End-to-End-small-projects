@@ -1,11 +1,11 @@
-![Alt Text](https://github.com/DheerajKumar97/IPL-Score-Prediction-with-Flask-Deployment-Heroku/blob/master/static/ipl.jpeg)
+![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/IPL-Score-Prediction-with-Deployment/static/ipl.jpeg)
 <br>
 # IPL-Score-Prediction-with-Flask-Deployment
 Heroku App Link : https://iplscoreprediction.herokuapp.com/
 
 # Deployment Demo
 
-![Alt Text](https://github.com/DheerajKumar97/IPL-Score-Prediction-with-Flask-Deployment-Heroku/blob/master/static/IPL%20Predictor%20Output.gif)
+![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/IPL-Score-Prediction-with-Deployment/static/IPL%20Predictor%20Output.gif)
 <br>
 # Table Of Contents
 - [Project Goal](#Project-Goal)
@@ -47,9 +47,9 @@ Heroku App Link : https://iplscoreprediction.herokuapp.com/
 
 # Technologies Used
 
-![Alt Text](https://github.com/DheerajKumar97/IPL-Score-Prediction-with-Flask-Deployment-Heroku/blob/master/static/p1.jpg)
-![Alt Text](https://github.com/DheerajKumar97/IPL-Score-Prediction-with-Flask-Deployment-Heroku/blob/master/static/p2.png)
-![Alt Text](https://github.com/DheerajKumar97/IPL-Score-Prediction-with-Flask-Deployment-Heroku/blob/master/static/p3.png)
+![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/IPL-Score-Prediction-with-Deployment/static/p1.jpg)
+![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/IPL-Score-Prediction-with-Deployment/static/p2.png)
+![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/IPL-Score-Prediction-with-Deployment/static/p3.png)
 
 
 ## About me
