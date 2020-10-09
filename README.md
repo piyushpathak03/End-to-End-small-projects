@@ -2,6 +2,13 @@
 A repository for multiple end to end small machine learning and deep learning projects from scratch to production
 
 
+# Technologies Used
+
+![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/IPL-Score-Prediction-with-Deployment/static/p1.jpg)
+![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/IPL-Score-Prediction-with-Deployment/static/p2.png)
+![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/IPL-Score-Prediction-with-Deployment/static/p3.png)
+
+
 ## About me
 
 **Piyush Pathak**
