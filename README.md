@@ -1,7 +1,7 @@
 # End-to-End-small-projects
 A repository for multiple end to end small machine learning and deep learning projects from scratch to production
 
-# projeccts
+# projects
 ![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Customer-Life-Time-Value-Prediction-Flask-Deployment--Heroku-master/CLTP%20Analysis%20Output/clv.jpg)
 
 ![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Employee-Attrition-Rate-Prediction-Flask--Deployment-Heroku-master/static/ATTT.png)
