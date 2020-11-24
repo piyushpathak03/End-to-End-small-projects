@@ -34,7 +34,7 @@ Heroku App Link  : https://customerlifetimevaluepred.herokuapp.com/
 
     pip install -r requirements.txt
     
-# File Section
+# File Section:-
 
 
 ### In Customer Lifetime Value (Exploratory Data Analysis).py
@@ -90,7 +90,7 @@ Heroku App Link  : https://customerlifetimevaluepred.herokuapp.com/
 [**BLOG**](https://medium.com/@piyushpathak03)
 
 
-# 📫 Follw me: 
+# 📫 Follw me
 
 [![Linkedin Badge](https://img.shields.io/badge/-PiyushPathak-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/piyushpathak03/)](https://www.linkedin.com/in/piyushpathak03/)
 
