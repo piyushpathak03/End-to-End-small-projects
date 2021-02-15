@@ -1,19 +1,19 @@
 # **Alcohol-Quality-Checker**
 ## Predicting Quality of Alcohol
 
-<img src="https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/README-Resources/AlcoholQuality.jpg" width=600>
+<img src="https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Alcohol-Quality-Checker/AlcoholQuality.jpg" width=600>
 
 ---
 
 ### **Web APP on Heroku**
-<img src="https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/README-Resources/AlcoholQuality.gif" width=600>
+<img src="https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Alcohol-Quality-Checker/README-Resources/AlcoholQuality.gif" width=600>
 
 **[The Project on Heroku](https://alcoholqualitychecker.herokuapp.com/)**
 
 ---
 ## The Dataset
-![](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/README-Resources/Screenshot%20(105).png)
-### **[Dataset](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/alcohol-quality-data.csv)**
+![](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Alcohol-Quality-Checker/README-Resources/Screenshot%20(105).png)
+### **[Dataset](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Alcohol-Quality-Checker/alcohol-quality-data.csv)**
 ---
 ## **Overview**
 * The Dataset has **'density'**, **'pH'**, **'sulphates'**, **'alcohol'**, **'Quality_Category'** columns. It has **4898 rows** and **5 columns**.
@@ -39,7 +39,7 @@
 ### **2> Feature Selection:**    
 * There are various techniques for this but here i have used **ExtraTressClassifier**. For, this Project ExtraTressClassifier showed **2 columns** as most important **"sulfate"** and **"Alcohol Level"**.
 
-![Feature Selection](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/README-Resources/Screenshot%20(106).png)
+![Feature Selection](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Alcohol-Quality-Checker/README-Resources/Screenshot%20(106).png)
 
 ---   
 
@@ -62,7 +62,7 @@
 
 ---
 * Finally, I decided to go with KNN because as we know **SVM generally has higher variance**, whereas in KNN we can fix it by **choosing the right K value**. In my project **k=125** gave better results.
-* For detailed look at Project, go to **[Alcohol-Quality.ipynb](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/Alcohol-Quality.ipynb)** and **[model.py](https://github.com/manthanpatel98/Alcohol-Quality-Checker/blob/master/model.py)**
+* For detailed look at Project, go to **[Alcohol-Quality.ipynb](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Alcohol-Quality-Checker/alcohol-quality-data.csv)** and **[model.py](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Alcohol-Quality-Checker/model.py)**
 
 ## About me
 
