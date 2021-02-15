@@ -1,0 +1,80 @@
+{% extends "base.html" %} {% block content %}
+
+<h2>Upload Image from any Trained classes</h2>
+
+
+    <div class="sub-block">
+        <form id="upload-file" method="post" enctype="multipart/form-data">
+        <label for="imageUpload" class="upload-label">
+            Choose...
+        </label>
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+        </form>
+
+        <div class="image-section" style="display:none;">
+            <div class="img-preview">
+                <div id="imagePreview">
+                </div>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
+            </div>
+        </div>
+
+        <div class="loader" style="display:none;"></div>
+
+        <h3 id="result">
+            <span> </span>
+        </h3>
+    </div>
+    <div class="sub-block">
+        <div class="list-group">
+          <a class="list-group-item", style="color:white; background-color:black; font-size:20px">Trained on Classes</a>
+          <a href="https://www.google.com/search?q=goggles&rlz=1C1CHBF_enIN861IN861&sxsrf=ALeKk02X1cEiPuJvPAz3hpyGtPmfxp5b-w:1611038569346&source=lnms&tbm=isch&sa=X&ved=2ahUKEwizlZStsqfuAhVEwjgGHdGaDKcQ_AUoAnoECBIQBA&biw=1536&bih=666" class="list-group-item">Goggles</a>
+          <a href="https://www.google.com/search?q=hat&tbm=isch&ved=2ahUKEwjbyqeusqfuAhVVFHIKHdA-A9kQ2-cCegQIABAA&oq=hat&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIECAAQQzICCAAyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyAggAOgQIIxAnUOfNCliQ0ApggdQKaABwAHgAgAHQAYgB2gOSAQUwLjIuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=a38GYJvpLdWoyAPQ_YzIDQ&bih=666&biw=1536&rlz=1C1CHBF_enIN861IN861" class="list-group-item">Hat</a>
+          <a href="https://www.google.com/search?q=jacket&tbm=isch&ved=2ahUKEwj4tpWCs6fuAhVFBisKHWqjCu8Q2-cCegQIABAA&oq=jacket&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIFCAAQsQMyBQgAELEDMgUIABCxAzIECAAQQzIFCAAQsQMyBAgAEEMyAggAMgQIABBDMgQIABBDOgQIIxAnUI18WKWFAWDNjAFoAHAAeACAAYkBiAHyBZIBAzAuNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=G4AGYLi9JcWMrAHqxqr4Dg&bih=666&biw=1536&rlz=1C1CHBF_enIN861IN861" class="list-group-item">Jacket</a>
+          <a href="https://www.google.com/search?q=T-shirt&tbm=isch&ved=2ahUKEwjQlsKLs6fuAhXSf30KHZKoB6EQ2-cCegQIABAA&oq=T-shirt&gs_lcp=CgNpbWcQAzIECAAQQzIECAAQQzIECAAQQzICCAAyAggAMgIIADICCAAyBAgAEEMyBAgAEEMyAggAOgQIIxAnUJGjAVjdsAFg6rYBaABwAHgAgAGHAYgB8AaSAQMwLjeYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=L4AGYJDDDdL_9QOS0Z6ICg&bih=666&biw=1536&rlz=1C1CHBF_enIN861IN861" class="list-group-item">T-shirt</a>
+          <a href="https://www.google.com/search?q=Shirt&tbm=isch&ved=2ahUKEwjA1JqXs6fuAhWXen0KHVzdC4QQ2-cCegQIABAA&oq=Shirt&gs_lcp=CgNpbWcQAzIECCMQJzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIFCAAQsQMyBAgAEEMyBAgAEEMyBQgAELEDOggIABCxAxCDAToHCAAQsQMQQ1DShgVYio0FYKCQBWgAcAB4AIABiwGIAZsDkgEDMC4zmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=R4AGYICVLZf19QPcuq-gCA&bih=666&biw=1536&rlz=1C1CHBF_enIN861IN861" class="list-group-item">Shirt</a>
+          <a href="https://www.google.com/search?q=Shoes&tbm=isch&ved=2ahUKEwjk3YHAs6fuAhWUGnIKHTEmAhgQ2-cCegQIABAA&oq=Shoes&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIFCAAQsQMyBwgAELEDEEMyBwgAELEDEEMyBQgAELEDMgUIABCxAzIECAAQQzIHCAAQsQMQQzIFCAAQsQMyBAgAEEM6BAgjECc6AggAOgcIIxDqAhAnOggIABCxAxCDAVDIkgFY3aIBYNOoAWgBcAB4AIAB6AGIAfMGkgEFMC41LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCsABAQ&sclient=img&ei=nYAGYKSbE5S1yAOxzIjAAQ&bih=666&biw=1536&rlz=1C1CHBF_enIN861IN861" class="list-group-item">Shoes</a>
+          <a href="https://www.google.com/search?q=Shorts&tbm=isch&ved=2ahUKEwip1e7Ks6fuAhU8gksFHdSPCCgQ2-cCegQIABAA&oq=Shorts&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIFCAAQsQMyBwgAELEDEEMyBQgAELEDMgQIABBDMgUIABCxAzIECAAQQzIECAAQQzIECAAQQzICCAA6BAgAEApQ1W5YwnFgwXhoAHAAeACAAZMBiAGQA5IBAzAuM5gBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=tIAGYKmrBLyErtoP1J-iwAI&bih=666&biw=1536&rlz=1C1CHBF_enIN861IN861" class="list-group-item">Shorts</a>
+          <a href="https://www.google.com/search?q=Wallet&tbm=isch&ved=2ahUKEwjciufSs6fuAhUHSysKHbrBBxEQ2-cCegQIABAA&oq=Wallet&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIFCAAQsQMyAggAMgIIADIFCAAQsQMyBQgAELEDMgIIADICCAAyAggAMgIIADoECCMQJzoECAAQQzoICAAQsQMQgwFQyJ4BWKipAWCorgFoAHAAeACAAZEBiAGJBpIBAzAuNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=xIAGYNyYLIeWrQG6g5-IAQ&bih=666&biw=1536&rlz=1C1CHBF_enIN861IN861" class="list-group-item">Wallet</a>
+          <a href="https://www.google.com/search?q=Trouser&tbm=isch&ved=2ahUKEwir0ILes6fuAhUHSysKHbrBBxEQ2-cCegQIABAA&oq=Trouser&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBAgAEEMyBQgAELEDMgUIABCxAzICCAAyAggAUK6jAViuowFg-qQBaABwAHgAgAGJAYgBiQGSAQMwLjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=3IAGYKvyDoeWrQG6g5-IAQ&bih=666&biw=1536&rlz=1C1CHBF_enIN861IN861" class="list-group-item">Trouser</a>
+          <a href="https://www.google.com/search?q=watch&tbm=isch&ved=2ahUKEwiJoLKNmKfuAhWRBSsKHXtYBMcQ2-cCegQIABAA&oq=watch&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIHCAAQsQMQQzIECAAQQzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyAggAMgIIADIFCAAQsQNQ8KgCWLquAmDeswJoAHAAeAGAAeUCiAHNCZIBBzAuMi4xLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=42MGYMmiGJGLrAH7sJG4DA&bih=722&biw=1536&rlz=1C1CHBF_enIN861IN861" class="list-group-item">Watch</a>
+        </div>
+
+    </div>
+
+
+
+<style>
+.list-group{
+    margin-top:0;
+    margin-left:10%;
+    position: relative;
+    background-color: #FFDF6C;
+    text-align:center;
+    font-weight: bold;
+    width:65%;
+}
+
+.main-block{
+    padding: 20px;
+}
+
+.sub-block{
+   width: 50%;
+    float: left;
+    padding-top: 3%;
+
+
+}
+
+
+
+
+
+
+</style>
+
+
+{% endblock %}
