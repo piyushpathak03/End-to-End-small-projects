@@ -1,0 +1,41 @@
+<! DOCKTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alcohol Quality Checker</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/fomc.css') }}">
+</head>
+<body>
+<div class="login">
+<section class="container-fluid">
+    <section class="row justify-content-center">
+        <section class="col-12 col-sm-6 col-md-3">
+            <img src="C:/Users/Manthan/Documents/jupyter tutorial(YOUTUBE)/My-Projects/Alcohole Quality/images/beer.jpg" class="bg">
+            <form class="form-container" action="{{ url_for('predict')}}"method="post">
+    	      <h4 class="text-center font-weight-bold">Alcohol Quality Checker</h4>
+              <div class="form-group">
+                <input type="text" placeholder="sulfate" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"required /> 
+              </div>
+    	      <div class="form-group">
+        		<input type="text" placeholder="Alcohol-Level" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"required />  
+    	      </div>
+              <button type="submit" class="btn btn-primary btn-block">Predict</button>
+            </form>
+        </section>
+    </section>
+</section>
+<h1></h1>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
