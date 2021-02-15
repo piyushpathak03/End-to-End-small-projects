@@ -1,7 +1,7 @@
 # **Alcohol-Quality-Checker**
 ## Predicting Quality of Alcohol
 
-<img src="https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Alcohol-Quality-Checker/AlcoholQuality.jpg" width=600>
+<img src="https://github.com/piyushpathak03/End-to-End-small-projects/tree/master/Alcohol-Quality-Checker/README-Resources/AlcoholQuality.jpg" width=600>
 
 ---
 
