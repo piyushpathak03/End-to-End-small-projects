@@ -2,7 +2,7 @@
 This project is built for classifying total 10 different type of cloths and accessories with VGG Image Classification Model.
 
 
-<img src="https://github.com/manthanpatel98/Cloths-AccessoryClassification/blob/main/Readme_Images/cloth-classification.gif" width=750>
+<img src="https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Cloths-AccessoryClassification%20using%20DL/Readme_Images/cloth-classification.gif" width=750>
 
 ---
 
@@ -11,13 +11,13 @@ This project is built for classifying total 10 different type of cloths and acce
 * Each class had around 30-50 images during training.
 * Images are trained with **VGG** Image Classification Model.
 
-<img src="https://github.com/manthanpatel98/Cloths-AccessoryClassification/blob/main/Readme_Images/Fashion-Model.png">
+<img src="https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Cloths-AccessoryClassification%20using%20DL/Readme_Images/Fashion-Model.png">
 
 ---
 
 ## Understanding VGG:
 
-<img src="https://github.com/manthanpatel98/Cloths-AccessoryClassification/blob/main/Readme_Images/vgg16-neural-network.jpg" width=750>
+<img src="https://github.com/piyushpathak03/End-to-End-small-projects/tree/master/Cloths-AccessoryClassification%20using%20DL/Readme_Images/vgg16-neural-network.jpg" width=750>
 
 * The full name of **VGG** is the **"Visual Geometry Group"**, which belongs to the Department of Science and Engineering of **Oxford University**.
 
@@ -25,7 +25,7 @@ This project is built for classifying total 10 different type of cloths and acce
 
 * The original purpose of VGG's research on the depth of convolutional networks is to understand how the depth of convolutional networks affects the accuracy and large-scale image classification and recognition.
 
-<img src="https://github.com/manthanpatel98/Cloths-AccessoryClassification/blob/main/Readme_Images/VGG-models.png" height=600>
+<img src="https://github.com/piyushpathak03/End-to-End-small-projects/tree/master/Cloths-AccessoryClassification%20using%20DL/Readme_Images/VGG-models.png" height=600>
 
 * In order to deepen the number of network layers and to avoid too many parameters, a small 3x3 convolution kernel is used in all layers.
 * Input to VGG Model is **224x224** sized **RGB** Images, contains **3x3** and **1x1** filters and number of fully connected layers differs from VGG-11 to VGG-19.
