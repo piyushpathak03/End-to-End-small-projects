@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>Restaurant Review - Sentiment Analyser</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.7  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGEDBY" CONTENT="piyush  pathak">
+	<META NAME="CHANGED" CONTENT="20210223;11083285">
+	<META NAME="" CONTENT="">
+	<META NAME="CHANGEDBY" CONTENT="piyush  pathak">
+	<META NAME="CHANGEDBY" CONTENT="piyush  pathak">
+	<SCRIPT SRC="https://kit.fontawesome.com/5f3f547070.js"></SCRIPT>
+	<!-- Website Title -->
+	<STYLE TYPE="text/css">
+	<!--
+		H2.cjk { font-family: "SimSun" }
+		H2.ctl { font-family: "Lucida Sans" }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-IN" DIR="LTR">
+<H2 CLASS="western">Restaurant Review's Sentiment Analyser</H2>
+<P><!-- Result -->{% if prediction==1 %} 
+</P>
+<H1>I love calories. They are d&ETH;&deg;mn tasty.</H1>
+<P><IMG SRC="%7B%7B%20url_for('static',%20filename='positive-review.webp')%20%7D%7D" NAME="graphics1" ALIGN=BOTTOM WIDTH=75 HEIGHT=38 BORDER=0>
+{% elif prediction==0 %} 
+</P>
+<H1>Ooops! I don't share blame but I am an explorer of food.</H1>
+<P><IMG SRC="%7B%7B%20url_for('static',%20filename='negative-review.webp')%20%7D%7D" NAME="graphics2" ALIGN=BOTTOM WIDTH=75 HEIGHT=38 BORDER=0>
+<BR><BR><BR><BR><BR><BR><BR><BR><BR>{% endif %} 
+</P>
+<P><A HREF="https://www.linkedin.com/in/piyushpathak03/">https://www.linkedin.com/in/piyushpathak03/</A></P>
+<P><!-- Footer -->Made by Piyush Pathak <BR><BR><BR>
+</P>
+<P><BR><BR>
+</P>
+</BODY>
+</HTML>
