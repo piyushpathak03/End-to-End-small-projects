@@ -44,7 +44,7 @@ The whole disease classification process is divided into 3 stages as in
 
 <b> Check the "how_to_train" folder for detailed explanation on getting started and how to train the each of the models (explained in the next section) are trained.</b>
 
-Find it here : https://github.com/deepakHonakeri05/Leaf-Disease-Classifier/tree/master/how_to_train
+Find it here : https://github.com/piyushpathak03/End-to-End-small-projects/tree/master/Leaf-Disease-Classifier-master/how_to_train
 
 ## Run Model
 
