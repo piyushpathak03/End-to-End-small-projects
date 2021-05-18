@@ -8,7 +8,7 @@ A repository for multiple end to end small machine learning and deep learning pr
 
 ![Alt Text](https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/IPL-Score-Prediction-with-Deployment/static/ipl.jpeg)
 
-<img src="https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Leaf-Disease-Classifier-master/images/leaf_before_yolo.jpeg" width="250" height="250"> <img src="./images/arrow.png" width="100" height="50">
+<img src="https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Leaf-Disease-Classifier-master/images/leaf_before_yolo.jpeg" width="250" height="250"> <img src="https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Leaf-Disease-Classifier-master/images/arrow.png" width="100" height="50">
  <img src="https://github.com/piyushpathak03/End-to-End-small-projects/blob/master/Leaf-Disease-Classifier-master/images/leaf_after_yolo.jpeg" width="250" height="250">
 
 # Technologies Used
