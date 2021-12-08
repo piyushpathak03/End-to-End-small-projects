@@ -1,6 +1,4 @@
 # Machine Learning and Data Science Applications in Industry
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=A%20list%20of%20Python%20Notebooks%20for%20business%20applications&url=https://github.com/firmai/industry-machine-learning&via=dereknow&hashtags=ML,AI,Python,business)
-
 Please add your tools and notebooks to this [Google Sheet](https://docs.google.com/spreadsheets/d/1pVdV3r4X3k5D1UtKbhMTmjU8mJTZSLAhJzycurgh_o4/edit?usp=sharing). 
 
 <p align="center">
@@ -935,5 +933,22 @@ Also, a listed repository should be deprecated if:
 - [Retail Use-case](https://github.com/IBM-DSE/CyberShop-Analytics) - Notebooks & Data for CyberShop *Retail* Use Case
 - [Dwell Time](https://github.com/arvindkarir/retail) - Customer dwell time and other analysis. 
 - [Retail Cohort](https://github.com/finnqiao/cohort_online_retail) - Cohort analysis. 
+
+## About me
+
+**Piyush Pathak**
+
+[**PORTFOLIO**](https://anirudhrapathak3.wixsite.com/piyush)
+
+[**GITHUB**](https://github.com/piyushpathak03)
+
+[**BLOG**](https://medium.com/@piyushpathak03)
+
+
+# 📫 Follw me: 
+
+[![Linkedin Badge](https://img.shields.io/badge/-PiyushPathak-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/piyushpathak03/)](https://www.linkedin.com/in/piyushpathak03/)
+
+<p  align="right"><img height="100" src = "https://media.giphy.com/media/l3URDstnIjBNY7rwLB/giphy.gif"></p>
 
 
