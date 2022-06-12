@@ -52,7 +52,7 @@ Heroku App Link : https://emloyeeattritionrate.herokuapp.com/home
 
 ![Alt Text](https://github.com/DheerajKumar97/FIFA-World-Cup-Analysis/blob/master/apache.jpg)
 <br>
-CopyRight 2020 DHEERAJ KUMAR
+
 
       https://www.apache.org/licenses/LICENSE-2.0
       
