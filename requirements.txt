@@ -1,4 +1,4 @@
-certifi==2020.6.20
+certifi==2022.12.7
 joblib==0.15.1
 numpy==1.19.0
 scikit-learn==0.23.1
