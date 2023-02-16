@@ -102,7 +102,7 @@ traitlets==4.3.3
 urllib3==1.25.9
 wcwidth 
 webencodings==0.5.1
-Werkzeug==1.0.1
+Werkzeug==2.2.3
 widgetsnbextension==3.5.1
 wincertstore==0.2
 wrapt==1.12.1
